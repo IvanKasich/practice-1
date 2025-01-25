@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  display: block;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+img {
+  display: block;
+  height: auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343d;
+}
+.container {
+  max-width: 1400px;
+  padding: 0 145px;
+  margin: 0 auto;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  padding-bottom: 22px;
+  padding-top: 22px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+.header-icon {
+  margin-right: 16px;
+}
+.header-nav {
+  margin-right: 73px;
+  margin-left: auto;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-nav-item {
+}
+.header-nav-link {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.header-sign-list {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.header-sign-item {
+}
+.header-sign-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  background-color: #fff;
+}
+.green {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  width: 113px;
+  height: 42px;
+  background-color: #02897a;
+}
+.hero {
+}
+.hero-title {
+}
+.hero-text {
+}
+.hero-list-btn {
+}
+.hero-item-btn {
+}
+.hero-btn {
+}
+.hero-image {
+}
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-name {
+}
+.benefits-text {
+}
+.benefits-btn {
+}
+.management {
+}
+.management-title {
+}
+.management-descr {
+}
+.management-list {
+}
+.management-item {
+}
+.management-name {
+}
+.management-text {
+}
+.management-image {
+}
+.support {
+}
+.support-title {
+}
+.support-descr {
+}
+.support-list {
+}
+.support-item {
+}
+.support-text {
+}
+.support-image {
+}
+.optimisation {
+}
+.optimisation-title {
+}
+.optimisation-descr {
+}
+.optimisation-list {
+}
+.optimisation-item {
+}
+.optimisation-name {
+}
+.text {
+}
+.optimisation-image {
+}
+.process {
+}
+.process-title {
+}
+.process-descr {
+}
+.process-list {
+}
+.process-item {
+}
+.process-image {
+}
+.process-text {
+}
+.process-btn {
+}
+.strategy {
+}
+.strategy-title {
+}
+.strategy-descr {
+}
+.strategy-list {
+}
+.strategy-image {
+}
+.strategy-text {
+}
+.strategy-thesis {
+}
+.price {
+}
+.price-title {
+}
+.price-descr {
+}
+.price-list {
+}
+.price-item {
+}
+.price-header {
+}
+.price-text {
+}
+.price-value {
+}
+.price-symbol {
+}
+.price-iteration {
+}
+.price-content-list {
+}
+.price-content-item {
+}
+.price-content-text {
+}
+.feedback {
+}
+.feedback-title {
+}
+.feedback-descr {
+}
+.feedback-list {
+}
+.feedback-item {
+}
+.feedback-rate {
+}
+.feedback-text {
+}
+.feedback-image {
+}
+.feedback-name {
+}
+.feedback-content {
+}
+.join {
+}
+.join-descr {
+}
+.join-btn {
+}
+.join-image {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-image {
+}
+.footer-soc-list {
+}
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+.footer-resource {
+}
+.footer-resource-header {
+}
+.footer-resource-list {
+}
+.footer-resource-item {
+}
+.footer-resource-link {
+}
+.footer-stuff {
+}
+.footer-stuff-header {
+}
+.footer-stuff-list {
+}
+.footer-stuff-item {
+}
+.footer-stuff-link {
+}
