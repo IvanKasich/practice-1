@@ -60,19 +60,26 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Work at the speed of thought</h1>
-          <p class="hero-text">
-            Tools, tutorials, design and innovation experts, all in one place!
-            The most intuitive way to imagine your next user experience.
-          </p>
-          <ul class="hero-list-btn">
-            <li class="hero-item-btn">
-              <button class="hero-btn" type="button">Get started</button>
-            </li>
-            <li class="hero-item-btn">
-              <button class="hero-btn" type="button">Watch the Video</button>
-            </li>
-          </ul>
+          <div class="hero-wrap">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-list-btn">
+              <li class="hero-item-btn">
+                <button class="hero-btn" type="button">Get started</button>
+              </li>
+              <li class="hero-item-btn">
+                <button class="hero-video-btn" type="button">
+                  <svg class="hero-video-icon" width="20" height="18">
+                    <use href="./images/symbol-defs.svg#icon-triangle"></use>
+                  </svg>
+                  Watch the Video
+                </button>
+              </li>
+            </ul>
+          </div>
           <img
             class="hero-image"
             src="./images/hero-img-min.png"
@@ -86,24 +93,44 @@
           <h2 class="benefits-title">Product was Built Specifically for You</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
+              <div class="benefits-thumb pointer">
+                <svg class="benefits-icon" width="11" height="18">
+                  <use href="./images/symbol-defs.svg#icon-arrow"></use>
+                </svg>
+              </div>
               <h3 class="benefits-name">First click tests</h3>
               <p class="benefits-text">
                 While most people enjoy casino gambling,
               </p>
             </li>
             <li class="benefits-item">
+              <div class="benefits-thumb wave">
+                <svg class="benefits-icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-wave"></use>
+                </svg>
+              </div>
               <h3 class="benefits-name">Design surveys</h3>
               <p class="benefits-text">
                 Sports betting, lottery and bingo playing for the fun
               </p>
             </li>
             <li class="benefits-item">
+              <div class="benefits-thumb heart">
+                <svg class="benefits-icon" width="16" height="18">
+                  <use href="./images/symbol-defs.svg#icon-heart"></use>
+                </svg>
+              </div>
               <h3 class="benefits-name">Preference tests</h3>
               <p class="benefits-text">
                 The Myspace page defines the individual.
               </p>
             </li>
             <li class="benefits-item">
+              <div class="benefits-thumb clock">
+                <svg class="benefits-icon" width="14" height="18">
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="benefits-name">Five second tests</h3>
               <p class="benefits-text">
                 Personal choices and the overall personality of the person.
@@ -115,29 +142,32 @@
       </section>
       <section class="management">
         <div class="container">
-          <h2 class="management-title">
-            <span>Effortless Validation for</span> Management
-          </h2>
-          <p class="management-descr">
-            The Myspace page defines the individual, his or her characteristics,
-            traits, personal choices and the overall personality of the person.
-          </p>
-          <ul class="management-list">
-            <li class="management-item">
-              <h3 class="management-name">Accessory makers</h3>
-              <p class="management-text">
-                While most people enjoy casino gambling, sports betting, lottery
-                and bingo playing for the fun
-              </p>
-            </li>
-            <li class="management-item">
-              <h3 class="management-name">Alterationists</h3>
-              <p class="management-text">
-                If you are looking for a new way to promote your business that
-                won’t cost you more money,
-              </p>
-            </li>
-          </ul>
+          <div class="management-wrap">
+            <h2 class="management-title">
+              <span>Effortless Validation for</span> Management
+            </h2>
+            <p class="management-descr">
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
+            </p>
+            <ul class="management-list">
+              <li class="management-item">
+                <h3 class="management-name">Accessory makers</h3>
+                <p class="management-text">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li class="management-item">
+                <h3 class="management-name">Alterationists</h3>
+                <p class="management-text">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </li>
+            </ul>
+          </div>
           <img
             class="management-image"
             src="./images/management-img-min.png"
@@ -148,65 +178,85 @@
       </section>
       <section class="support">
         <div class="container">
-          <h2 class="support-title">
-            <span>Easier decision making for</span> Customer Support
-          </h2>
-          <p class="support-descr">
-            The Myspace page defines the individual, his or her characteristics,
-            traits, personal choices and the overall personality of the person.
-          </p>
-          <ul class="support-list">
-            <li class="support-item">
-              <p class="support-text">
-                Never worry about overpaying for your energy again.
-              </p>
-            </li>
-            <li class="support-item">
-              <p class="support-text">
-                We will only switch you to energy companies that we trust and
-                will treat you right
-              </p>
-            </li>
-            <li class="support-item">
-              <p class="support-text">
-                We track the markets daily and know where the savings are.
-              </p>
-            </li>
-          </ul>
           <img
             class="support-image"
             src="./images/support-img-min.png"
             alt="laptop"
             width="540"
           />
+          <div class="support-wrap">
+            <h2 class="support-title">
+              <span>Easier decision making for</span> Customer Support
+            </h2>
+            <p class="support-descr">
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
+            </p>
+            <ul class="support-list">
+              <li class="support-item">
+                <div class="support-item-thumb orange">
+                  <svg class="support-item-icon" width="16" height="12">
+                    <use href="./images/symbol-defs.svg#icon-tick"></use>
+                  </svg>
+                </div>
+                <p class="support-text">
+                  Never worry about overpaying for your energy again.
+                </p>
+              </li>
+              <li class="support-item">
+                <div class="support-item-thumb red">
+                  <svg class="support-item-icon" width="16" height="12">
+                    <use href="./images/symbol-defs.svg#icon-tick"></use>
+                  </svg>
+                </div>
+                <p class="support-text">
+                  We will only switch you to energy companies that we trust and
+                  will treat you right
+                </p>
+              </li>
+              <li class="support-item">
+                <div class="support-item-thumb blue">
+                  <svg class="support-item-icon" width="16" height="12">
+                    <use href="./images/symbol-defs.svg#icon-tick"></use>
+                  </svg>
+                </div>
+                <p class="support-text">
+                  We track the markets daily and know where the savings are.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="optimisation">
         <div class="container">
-          <h2 class="optimisation-title">
-            <span>Optimisation for</span> Collaborative
-          </h2>
-          <p class="optimisation-descr">
-            Few would argue that, despite the advancements of feminism over the
-            past three decades, women still face a double standard when it comes
-            to their behavior.
-          </p>
-          <ul class="optimisation-list">
-            <li class="optimisation-item">
-              <h3 class="optimisation-name">Accessory makers</h3>
-              <p class="text">
-                While most people enjoy casino gambling, sports betting, lottery
-                and bingo playing for the fun
-              </p>
-            </li>
-            <li class="optimisation-item">
-              <h3 class="optimisation-name">Alterationists</h3>
-              <p class="text">
-                If you are looking for a new way to promote your business that
-                won’t cost you more money,
-              </p>
-            </li>
-          </ul>
+          <div class="optimisation-wrap">
+            <h2 class="optimisation-title">
+              <span>Optimisation for</span> Collaborative
+            </h2>
+            <p class="optimisation-descr">
+              Few would argue that, despite the advancements of feminism over
+              the past three decades, women still face a double standard when it
+              comes to their behavior.
+            </p>
+            <ul class="optimisation-list">
+              <li class="optimisation-item">
+                <h3 class="optimisation-name">Accessory makers</h3>
+                <p class="optimisation-text">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li class="optimisation-item">
+                <h3 class="optimisation-name">Alterationists</h3>
+                <p class="optimisation-text">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </li>
+            </ul>
+          </div>
           <img
             class="optimisation-image"
             src="./images/collaboration-img-min.png"
@@ -271,40 +321,48 @@
             keystroke away.
           </p>
           <ul class="strategy-list">
-            <img
-              class="strategy-image"
-              src="./images/image1-min.jpg"
-              alt="working"
-              width="350"
-            />
-            <p class="strategy-text">By Wahid Ari | 03 March 2019</p>
-            <h4 class="strategy-thesis">
-              Increasing Prosperity With Positive Thinking
-            </h4>
-          </ul>
-          <ul>
-            <img
-              class="strategy-image"
-              src="./images/image2-min.jpg"
-              alt="window"
-              width="350"
-            />
-            <p class="strategy-text">By Wahid Ari | 03 March 2019</p>
-            <h4 class="strategy-thesis">
-              Motivation Is The First Step To Success
-            </h4>
-          </ul>
-          <ul>
-            <img
-              class="strategy-image"
-              src="./images/image3-min.jpg"
-              alt="skyscrapper"
-              width="350"
-            />
-            <p class="strategy-text">By Wahid Ari | 03 March 2019</p>
-            <h4 class="strategy-thesis">
-              Success Steps For Your Personal Or Business
-            </h4>
+            <li class="strategy-item">
+              <img
+                class="strategy-image"
+                src="./images/image1-min.jpg"
+                alt="working"
+                width="350"
+              />
+              <p class="strategy-text">
+                By <span>Wahid Ari</span> | 03 March 2019
+              </p>
+              <h4 class="strategy-thesis">
+                Increasing Prosperity With Positive Thinking
+              </h4>
+            </li>
+            <li class="strategy-item">
+              <img
+                class="strategy-image"
+                src="./images/image2-min.jpg"
+                alt="window"
+                width="350"
+              />
+              <p class="strategy-text">
+                By <span>Wahid Ari</span> | 03 March 2019
+              </p>
+              <h4 class="strategy-thesis">
+                Motivation Is The First Step To Success
+              </h4>
+            </li>
+            <li class="strategy-item">
+              <img
+                class="strategy-image"
+                src="./images/image3-min.jpg"
+                alt="skyscrapper"
+                width="350"
+              />
+              <p class="strategy-text">
+                By <span>Wahid Ari</span> | 03 March 2019
+              </p>
+              <h4 class="strategy-thesis">
+                Success Steps For Your Personal Or Business
+              </h4>
+            </li>
           </ul>
         </div>
       </section>
@@ -316,9 +374,13 @@
             <li class="price-item">
               <h3 class="price-header">Free</h3>
               <p class="price-text">Brief price description</p>
-              <h4 class="price-value">0</h4>
-              <p class="price-symbol">&#36;</p>
-              <p class="price-iteration">Per / month</p>
+              <div class="price-wrap">
+                <h4 class="price-value">0</h4>
+                <div class="price-thumb">
+                  <p class="price-symbol">&#36;</p>
+                  <p class="price-iteration">Per / month</p>
+                </div>
+              </div>
               <ul class="price-content-list">
                 <li class="price-content-item">
                   <p class="price-content-text">Only 2 Operators</p>
@@ -330,14 +392,18 @@
                   <p class="price-content-text">Landing Pages</p>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="price-btn" type="button">Order Now</button>
             </li>
             <li class="price-item">
               <h3 class="price-header">Standard</h3>
               <p class="price-text">Brief price description</p>
-              <h4 class="price-value">5</h4>
-              <p class="price-symbol">&#36;</p>
-              <p class="price-iteration">Per / month</p>
+              <div class="price-wrap">
+                <h4 class="price-value">5</h4>
+                <div class="price-thumb">
+                  <p class="price-symbol">&#36;</p>
+                  <p class="price-iteration">Per / month</p>
+                </div>
+              </div>
               <ul class="price-content-list">
                 <li class="price-content-item">
                   <p class="price-content-text">5+ Operators</p>
@@ -349,14 +415,18 @@
                   <p class="price-content-text">Landing Pages</p>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="price-btn" type="button">Order Now</button>
             </li>
             <li class="price-item">
               <h3 class="price-header">Premium</h3>
               <p class="price-text">Brief price description</p>
-              <h4 class="price-value">10</h4>
-              <p class="price-symbol">&#36;</p>
-              <p class="price-iteration">Per / month</p>
+              <div class="price-wrap">
+                <h4 class="price-value">10</h4>
+                <div class="price-thumb">
+                  <p class="price-symbol">&#36;</p>
+                  <p class="price-iteration">Per / month</p>
+                </div>
+              </div>
               <ul class="price-content-list">
                 <li class="price-content-item">
                   <p class="price-content-text">10+ Operators</p>
@@ -368,7 +438,7 @@
                   <p class="price-content-text">Landing Pages</p>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="price-btn" type="button">Order Now</button>
             </li>
           </ul>
         </div>
@@ -382,97 +452,134 @@
           </p>
           <ul class="feedback-list">
             <li class="feedback-item">
-              <p class="feedback-rate"><i>work rate</i></p>
-              <!--rework later-->
+              <svg class="feedback-icon" width="106" height="18">
+                <use href="./images/symbol-defs.svg#icon-ratio"></use>
+              </svg>
               <p class="feedback-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img
-                class="feedback-image"
-                src="./images/photo1.jpg"
-                alt="wahid ari"
-                width="50"
-              />
-              <h3 class="feedback-name">Wahid Ari</h3>
-              <p class="feedback-content">Designer</p>
+              <div class="feedback-wrap">
+                <img
+                  class="feedback-image"
+                  src="./images/photo1.jpg"
+                  alt="wahid ari"
+                  width="50"
+                />
+                <div class="feedback-thumb">
+                  <h3 class="feedback-name">Wahid Ari</h3>
+                  <p class="feedback-content">Designer</p>
+                </div>
+              </div>
             </li>
             <li class="feedback-item">
-              <p class="feedback-rate"><i>work rate</i></p>
-              <!--rework later-->
+              <svg class="feedback-icon" width="106" height="18">
+                <use href="./images/symbol-defs.svg#icon-ratio"></use>
+              </svg>
               <p class="feedback-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img
-                class="feedback-image"
-                src="./images/photo2.jpg"
-                alt="wahid ari"
-                width="50"
-              />
-              <h3 class="feedback-name">Wahid Ari</h3>
-              <p class="feedback-content">Designer</p>
+              <div class="feedback-wrap">
+                <img
+                  class="feedback-image"
+                  src="./images/photo2.jpg"
+                  alt="wahid ari"
+                  width="50"
+                />
+                <div class="feedback-thumb">
+                  <h3 class="feedback-name">Wahid Ari</h3>
+                  <p class="feedback-content">Designer</p>
+                </div>
+              </div>
             </li>
             <li class="feedback-item">
-              <p class="feedback-rate"><i>work rate</i></p>
-              <!--rework later-->
+              <svg class="feedback-icon" width="106" height="18">
+                <use href="./images/symbol-defs.svg#icon-ratio"></use>
+              </svg>
               <p class="feedback-text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img
-                class="feedback-image"
-                src="./images/photo3.jpg"
-                alt="wahid ari"
-                width="50"
-              />
-              <h3 class="feedback-name">Wahid Ari</h3>
-              <p class="feedback-content">Designer</p>
+              <div class="feedback-wrap">
+                <img
+                  class="feedback-image"
+                  src="./images/photo3.jpg"
+                  alt="wahid ari"
+                  width="50"
+                />
+                <div class="feedback-thumb">
+                  <h3 class="feedback-name">Wahid Ari</h3>
+                  <p class="feedback-content">Designer</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="join">
         <div class="container">
-          <h2 hidden>join us</h2>
-          <p class="join-descr">
-            Join 100 Compannies who boost their business with Product
-          </p>
-          <button class="join-btn" type="button">Get This</button>
-          <img
-            class="join-image"
-            src="./images/screen.png"
-            alt="diagrams"
-            width="351"
-          />
+          <div class="join-wrap">
+            <h2 hidden>join us</h2>
+            <p class="join-descr">
+              Join 100 Compannies who boost their business with Product
+            </p>
+            <button class="join-btn" type="button">Get This</button>
+          </div>
+          <div class="join-image-wrap">
+            <img
+              class="join-image"
+              src="./images/screen.png"
+              alt="diagrams"
+              height="331"
+            />
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo logo" href="./index.html"
-          ><img
-            class="footer-image"
-            src="./images/logo-min.png"
-            alt="Logo"
-            width="40"
-          />Product</a
-        >
-        <ul class="footer-soc-list">
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="https://www.instagram.com/"
-              >instagram</a
-            >
-          </li>
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="https://www.facebook.com/"
-              >facebook</a
-            >
-          </li>
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="https://x.com/">twitter</a>
-          </li>
-        </ul>
+        <div class="footer-soc-wrap">
+          <a class="footer-logo logo" href="./index.html"
+            ><img
+              class="header-icon"
+              src="./images/logo-min.png"
+              alt="Logo"
+              width="40"
+            />Product</a
+          >
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a class="footer-soc-link" href="https://x.com/" target="_blank">
+                <svg class="" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
         <div class="footer-resource">
           <p class="footer-resource-header">Resource</p>
           <ul class="footer-resource-list">
@@ -507,10 +614,28 @@
             </li>
           </ul>
         </div>
-        <p>knowing you're always on the best energy deal.</p>
-        <p>Enter your phone number</p>
-        <button type="button">Sign up Now</button>
-        <p>Made With Love By Figmaland All Right Reserved</p>
+        <div class="footer-form-wrap">
+          <p class="footer-form-header">
+            knowing you're always on the best energy deal.
+          </p>
+          <form class="footer-form">
+            <label class="footer-label"
+              ><input
+                type="email"
+                name="subscribe"
+                class="footer-form-input"
+                placeholder="Enter your phone number"
+              />
+              <svg class="footer-form-icon" width="18" height="28">
+                <use href="./images/symbol-defs.svg#icon-mobile-screen"></use>
+              </svg>
+            </label>
+            <button class="footer-form-btn" type="submit">Sign up Now</button>
+          </form>
+        </div>
+        <p class="footer-rights">
+          Made With Love By Figmaland All Right Reserved
+        </p>
       </div>
     </footer>
   </body>
